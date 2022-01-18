@@ -4,10 +4,10 @@ name: tests
 on:
   push:
     branches:
-      - main
+      - master
       - dev
   pull_request:
-    branches: [main, dev]
+    branches: [master, dev]
 #A workflow run is made up of one or more jobs. Jobs run in parallel by default.
 jobs:
   test:
